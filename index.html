@@ -3,16 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
     <title>Sign Up Now!</title>
 </head>
 <body>
 
     <div class="logo">
         <img id="thor_logo" alt="Thor Logo" />
-        <div class="footer">Credits</div>
+        <div class="footer">Picture by <a href="https://unsplash.com/de/@bradmills?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Brad Mills</a> on <a href="https://unsplash.com/de/fotos/braune-schotterstrasse-in-der-nahe-eines-schneebedeckten-berges-wahrend-des-tages-9sgdhwtLOR8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+        </div>
     </div>
 
-    <main></main>
+    <main>
+        <section class="intro">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptas quia voluptatem molestias excepturi! Dolor perspiciatis consectetur officiis sit veritatis dicta maxime esse, eaque illum ullam voluptate doloribus voluptatum accusantium?</h2>
+
+            <h2>You know you want to <em>follow Thor.</em></h2>
+        </section>
+
+        <form action="index.html" method="post">
+            <h1>Let's do this!</h1>
+
+            <label for="firstName">first name</label>
+            <input type="text" id="firstName"/>
+
+            <label for="lastName">last name</label>
+            <input type="text" id="lastName"/>
+
+            <label for="email">e-mail</label>
+            <input type="text" id="email"/>
+
+            <label for="phone">phone number</label>
+            <input type="text" id="phone"/>
+
+            <label for="password">password</label>
+            <input type="text" id="password"/>
+
+            <label for="confPassword">confirm password</label>
+            <input type="text" id="confPassword"/>
+
+            <button type="submit">Create Account</button>
+
+            <p>Already have an account? Login in</p>
+        </form>
+    </main>
     
 </body>
 </html>

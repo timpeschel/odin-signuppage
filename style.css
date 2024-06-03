@@ -1,0 +1,38 @@
+html, body, *{
+    box-sizing: border-box; 
+    margin:0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction:row;
+}
+
+.logo{
+    background-image:url(brad-mills-mountains.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: bottom center;
+
+    flex:0 0 500px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+    padding:1rem;
+}
+
+html, body, .logo{
+    height: 100%;   /* bad solution: this needs to be in place for .logo to be 100 % of the screen height */
+}
+
+main{
+    padding:1.5rem;
+    background-color:#c7cfce;
+}
+
+form{
+    background-color:white;
+}
